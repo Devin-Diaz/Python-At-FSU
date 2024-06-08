@@ -1,0 +1,6 @@
+Hello my name is Devin Diaz,
+I am a Computer Science major at Framingham State University.
+I aspire to be a full stack software developer at a big tech company.
+Outside of academics, I love to play soccer, train BJJ, and hang out with family and friends.
+My favorite TV shows are, Blue Lock, AoAshi, and Naruto.
+That is all.
