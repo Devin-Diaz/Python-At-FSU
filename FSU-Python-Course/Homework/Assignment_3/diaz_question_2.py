@@ -52,4 +52,3 @@ def golf_data() -> None:
 
 # begins program 
 golf_data()
-    
