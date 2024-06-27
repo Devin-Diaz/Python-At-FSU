@@ -1,0 +1,74 @@
+The: 1
+sun: 1
+was: 1 2 6 7
+shining: 1
+brightly: 1
+in: 1
+the: 1 2 3 4 5 6 7
+blue: 1
+sky: 1
+as: 1 5
+children: 1 3 4 7
+played: 1
+park: 2 7
+full: 2
+of: 2
+laughter: 2
+and: 2 3 5 7
+joy: 2
+swings: 2
+were: 2 3
+swinging: 2
+high: 3
+slides: 3
+slippery: 3
+ran: 3
+around: 3
+chasing: 3
+each: 3
+other: 3
+while: 4
+parents: 4
+sat: 4
+on: 4
+benches: 4
+watching: 4
+play: 4
+dogs: 4
+barked: 4
+happily: 4
+they: 5
+chased: 5
+after: 5
+balls: 5
+thrown: 5
+by: 5
+their: 5 6
+owners: 5
+trees: 5
+provided: 5
+shade: 5
+grass: 5
+soft: 6
+beneath: 6
+feet: 6
+everyone: 6
+enjoying: 6
+beautiful: 6
+day: 6
+ice: 6
+cream: 6
+truck: 6
+arrived: 7
+lined: 7
+up: 7
+excitedly: 7
+for: 7
+a: 7 8
+treat: 7
+perfect: 7
+place: 7
+to: 7
+spend: 8
+sunny: 8
+afternoon: 8
