@@ -139,7 +139,8 @@ def employee_central_database() -> None:
 
     while True:
         print('---EMPLOYEE MENU---')
-        user_input = input("ENTER 'A'dd Employee, 'F'ind Employee, 'C'hange Emp Details, 'DEL'ete Employee, 'V'iew all Employees or 'X' to exit: ").upper()
+        user_input = input("ENTER 'A'dd Employee, 'F'ind Employee, 'C'hange Emp Details," +
+                           " DEL'ete Employee, 'V'iew all Employees or 'X' to exit: ").upper()
 
         if user_input not in user_options:
             print(f'*ERROR* {user_input} NOT RECOGNIZED')
