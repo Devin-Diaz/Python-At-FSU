@@ -39,8 +39,13 @@ df = pd.read_csv(DIAMOND_CSV_FILE, index_col=0)
 # reading and parsing needed data
 first_seven_rows = df.head(7)
 last_seven_rows = df.tail(7)
+
 numerical_cols = df.select_dtypes(include=['number'])
 categorical_cols = (df.select_dtypes(include=object))
+
+numerical_analysis = numerical_cols.describe()
+categorical_analysis = categorical_cols.describe()
+
 numerical_cols.hist(bins=30, figsize=(15, 8))
 
 # utilizing data above for simple user use
@@ -50,8 +55,8 @@ def csv_exercise():
             DATA OPTIONS:
             1. First seven rows
             2. Last seven rows
-            3. View numerical data
-            4. View categorical data
+            3. Numerical data descriptive stats
+            4. Categorical data descriptive stats
             5. Unique column data
             6. Histogram visual of numerical data
             -1. Quit
@@ -60,8 +65,8 @@ def csv_exercise():
 
         if user_input == 1: print(first_seven_rows)
         elif user_input == 2: print(last_seven_rows)
-        elif user_input == 3: print(numerical_cols)
-        elif user_input == 4: print(categorical_cols)
+        elif user_input == 3: print(numerical_analysis)
+        elif user_input == 4: print(categorical_analysis)
         elif user_input == 5: 
             for col in df.columns:
                 print(f'{col}: {pd.Series(df[col]).unique()}\n')
